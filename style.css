@@ -1,0 +1,51 @@
+body {
+    background: rgb(133, 235, 133);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: monospace;
+}
+
+h1 {
+    color: #fff; 
+}
+
+.score {
+    font-size: 3rem;
+    top: 0px;
+}
+
+#container {
+    width: 700px;
+    height: 470px;
+    margin: 0px auto;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+#grid {
+    height: 400px;
+    width: 200px;
+    margin: 0px 10px;
+    border: 1px solid #ddd;
+}
+
+#display {
+    height: 400px;
+    width: 200px;
+    background: #fff;
+}
+
+#small-grid {
+    height: 100px;
+    width: 100px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+}
+
+button {
+    margin: 20px;
+}
